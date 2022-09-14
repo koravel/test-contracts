@@ -1,0 +1,49 @@
+{
+  "name": "solidity-contracts",
+  "version": "1.3.0",
+  "description": "A project containing the contracts that provide blockchain backend for Bitbon and Bittrade. Project defines the Bitbon ERC-20-like token, various data storages and role system contracts.",
+  "main": "____truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async-await-foreach": "^1.0.4",
+    "bn.js": "^5.1.3",
+    "ethereumjs-abi": "^0.6.8",
+    "ethereumjs-util": "^6.2.0",
+    "hash.js": "^1.1.7",
+    "node": "^13.1.0",
+    "openzeppelin-solidity": "^2.1.1",
+    "seedrandom": "^3.0.5",
+    "truffle-assertions": "^0.9.1",
+    "truffle-contract": "^4.0.2",
+    "truffle-privatekey-provider": "^1.2.0"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "build": "truffle compile --all",
+    "deploy": "truffle deploy --network dev",
+    "cli": "truffle console --network dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.simcord.com:bitbon/solidity-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "truffle",
+    "ethereum",
+    "node",
+    "contracts",
+    "js",
+    "es6",
+    "bitbon",
+    "bittrade",
+    "bit.trade"
+  ],
+  "author": "Ivan Andrusenko (i.andrusenko@simcord.com)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "solhint": "^1.2.1"
+  }
+}
